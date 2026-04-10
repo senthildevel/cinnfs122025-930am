@@ -10,20 +10,20 @@ const App = () => {
       <div className="container">
         <ul className="nav">
           <li className="nav-item">
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link" to="/cinnfs122025-930am">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/users">
+            <NavLink className="nav-link" to="/cinnfs122025-930am/users">
               User List
             </NavLink>
           </li>
         </ul>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/users" element={<UserList />} />
+          <Route path="/cinnfs122025-930am" element={<Home />} />
+          <Route path="/cinnfs122025-930am/users" element={<UserList />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
